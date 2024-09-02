@@ -21,7 +21,7 @@ struct GameModel {
             volume: 0.7,
             turns: 0,
             answer: 10,
-            alternatives: [6, 23, 5, 10]
+            alternatives: Int.generateUniqueRandomInteger(count: 4)
         )
     }
     
@@ -35,8 +35,7 @@ struct GameModel {
     
     //TODO: Need to implement
     mutating func generateNewProblem() {
-        //TODO: implemet this part
-        alternatives = [6, 23, 5, 10]
+        alternatives = Int.generateUniqueRandomInteger(count: 4)
         
         
         answer = alternatives[3]
