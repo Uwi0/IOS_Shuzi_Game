@@ -14,6 +14,7 @@
 		FBAB62722C850A5D00F29C6C /* Shuzi_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB62712C850A5D00F29C6C /* Shuzi_GameTests.swift */; };
 		FBAB627C2C850A5D00F29C6C /* Shuzi_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB627B2C850A5D00F29C6C /* Shuzi_GameUITests.swift */; };
 		FBAB627E2C850A5D00F29C6C /* Shuzi_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB627D2C850A5D00F29C6C /* Shuzi_GameUITestsLaunchTests.swift */; };
+		FBAB628B2C850AD200F29C6C /* Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB628A2C850AD200F29C6C /* Max.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FBAB62772C850A5D00F29C6C /* Shuzi GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shuzi GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAB627B2C850A5D00F29C6C /* Shuzi_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuzi_GameUITests.swift; sourceTree = "<group>"; };
 		FBAB627D2C850A5D00F29C6C /* Shuzi_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuzi_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBAB628A2C850AD200F29C6C /* Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Max.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */,
 				FBAB62612C850A5C00F29C6C /* ContentView.swift */,
+				FBAB628A2C850AD200F29C6C /* Max.swift */,
 				FBAB62632C850A5C00F29C6C /* Assets.xcassets */,
 				FBAB62652C850A5C00F29C6C /* Shuzi_Game.entitlements */,
 				FBAB62662C850A5C00F29C6C /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAB62622C850A5C00F29C6C /* ContentView.swift in Sources */,
+				FBAB628B2C850AD200F29C6C /* Max.swift in Sources */,
 				FBAB62602C850A5C00F29C6C /* Shuzi_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

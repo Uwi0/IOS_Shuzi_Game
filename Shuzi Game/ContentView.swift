@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Shuzi Game
-//
-//  Created by dwi prasetyo on 02/09/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {

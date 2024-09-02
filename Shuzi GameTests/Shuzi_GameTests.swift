@@ -6,30 +6,36 @@
 //
 
 import XCTest
+@testable import Shuzi_Game
 
 final class Shuzi_GameTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
+    
+    func testMax() throws {
+        let data1 = (x: 3, y: 10, z: 7)
+        let dataArray = [
+            (x: 3, y: 10, z: 7),
+            (x: 3, y: 7, z: 10),
+            (x: 7, y: 10, z: 3),
+            (x: 7, y: 3, z: 10),
+            (x: 10, y: 3, z: 7),
+            (x: 10, y: 7, z: 3),
+            (x: 5, y: 5, z: 5),
+            (x: -15, y: 15, z: 0)
+        ]
+        
+        
+        let expectedValues = [
+            10,10,10,10,10,10,5,15
+        ]
+        
+        for i in 0..<dataArray.count {
+            let data = dataArray[i]
+            let expectedValue = expectedValues[i]
+            let evaluatedValue = myMax(x: data.x, y: data.y, z: data.z)
+            
+            XCTAssertEqual(expectedValue, evaluatedValue)
         }
     }
+
 
 }
