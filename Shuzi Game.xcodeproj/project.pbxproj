@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB743AC92C85A45B00A4D082 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB743AC82C85A45B00A4D082 /* GameModel.swift */; };
 		FBAB62602C850A5C00F29C6C /* Shuzi_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */; };
 		FBAB62622C850A5C00F29C6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB62612C850A5C00F29C6C /* ContentView.swift */; };
 		FBAB62642C850A5C00F29C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAB62632C850A5C00F29C6C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB743AC82C85A45B00A4D082 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		FBAB625C2C850A5C00F29C6C /* Shuzi Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shuzi Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuzi_GameApp.swift; sourceTree = "<group>"; };
 		FBAB62612C850A5C00F29C6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB743AC52C85A34C00A4D082 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FB743AC62C85A35200A4D082 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		FB743AC72C85A35B00A4D082 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FB743AC82C85A45B00A4D082 /* GameModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		FBAB62532C850A5C00F29C6C = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +121,9 @@
 		FBAB625E2C850A5C00F29C6C /* Shuzi Game */ = {
 			isa = PBXGroup;
 			children = (
+				FB743AC72C85A35B00A4D082 /* model */,
+				FB743AC62C85A35200A4D082 /* viewModel */,
+				FB743AC52C85A34C00A4D082 /* view */,
 				FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */,
 				FBAB62612C850A5C00F29C6C /* ContentView.swift */,
 				FBAB628A2C850AD200F29C6C /* Max.swift */,
@@ -263,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAB62622C850A5C00F29C6C /* ContentView.swift in Sources */,
+				FB743AC92C85A45B00A4D082 /* GameModel.swift in Sources */,
 				FBAB628B2C850AD200F29C6C /* Max.swift in Sources */,
 				FBAB62602C850A5C00F29C6C /* Shuzi_GameApp.swift in Sources */,
 			);
