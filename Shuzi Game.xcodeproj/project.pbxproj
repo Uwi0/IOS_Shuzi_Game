@@ -9,6 +9,26 @@
 /* Begin PBXBuildFile section */
 		FB743AC92C85A45B00A4D082 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB743AC82C85A45B00A4D082 /* GameModel.swift */; };
 		FB743ACC2C85B0B400A4D082 /* RandomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB743ACB2C85B0B400A4D082 /* RandomExtensions.swift */; };
+		FB7446852C86F8CF000A3289 /* OhNo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446822C86F8CF000A3289 /* OhNo.aiff */; };
+		FB7446862C86F8CF000A3289 /* weak.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446832C86F8CF000A3289 /* weak.aiff */; };
+		FB7446872C86F8CF000A3289 /* incorrectAnswer.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446842C86F8CF000A3289 /* incorrectAnswer.aiff */; };
+		FB74468D2C86F90B000A3289 /* correct.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446882C86F90B000A3289 /* correct.aiff */; };
+		FB74468E2C86F90B000A3289 /* yes.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446892C86F90B000A3289 /* yes.aiff */; };
+		FB74468F2C86F90B000A3289 /* awesome.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB74468A2C86F90B000A3289 /* awesome.aiff */; };
+		FB7446902C86F90B000A3289 /* bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB74468B2C86F90B000A3289 /* bell.aiff */; };
+		FB7446912C86F90B000A3289 /* whoop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB74468C2C86F90B000A3289 /* whoop.aiff */; };
+		FB74469D2C86F97C000A3289 /* five.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446922C86F97C000A3289 /* five.aiff */; };
+		FB74469E2C86F97C000A3289 /* nine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446932C86F97C000A3289 /* nine.aiff */; };
+		FB74469F2C86F97C000A3289 /* eight.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446942C86F97C000A3289 /* eight.aiff */; };
+		FB7446A02C86F97C000A3289 /* three.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446952C86F97C000A3289 /* three.aiff */; };
+		FB7446A12C86F97C000A3289 /* two.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446962C86F97C000A3289 /* two.aiff */; };
+		FB7446A22C86F97C000A3289 /* one.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446972C86F97C000A3289 /* one.aiff */; };
+		FB7446A32C86F97C000A3289 /* four.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446982C86F97C000A3289 /* four.aiff */; };
+		FB7446A42C86F97C000A3289 /* seven.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446992C86F97C000A3289 /* seven.aiff */; };
+		FB7446A52C86F97C000A3289 /* six.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB74469A2C86F97C000A3289 /* six.aiff */; };
+		FB7446A62C86F97C000A3289 /* ten.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB74469B2C86F97C000A3289 /* ten.aiff */; };
+		FB7446A72C86F97C000A3289 /* zero.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB74469C2C86F97C000A3289 /* zero.aiff */; };
+		FB7446A92C86FA99000A3289 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7446A82C86FA99000A3289 /* GameViewModel.swift */; };
 		FBAB62602C850A5C00F29C6C /* Shuzi_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */; };
 		FBAB62622C850A5C00F29C6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB62612C850A5C00F29C6C /* ContentView.swift */; };
 		FBAB62642C850A5C00F29C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAB62632C850A5C00F29C6C /* Assets.xcassets */; };
@@ -39,6 +59,26 @@
 /* Begin PBXFileReference section */
 		FB743AC82C85A45B00A4D082 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		FB743ACB2C85B0B400A4D082 /* RandomExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomExtensions.swift; sourceTree = "<group>"; };
+		FB7446822C86F8CF000A3289 /* OhNo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = OhNo.aiff; path = ../../../../../../../Downloads/OhNo.aiff; sourceTree = "<group>"; };
+		FB7446832C86F8CF000A3289 /* weak.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = weak.aiff; path = ../../../../../../../Downloads/weak.aiff; sourceTree = "<group>"; };
+		FB7446842C86F8CF000A3289 /* incorrectAnswer.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = incorrectAnswer.aiff; path = ../../../../../../../Downloads/incorrectAnswer.aiff; sourceTree = "<group>"; };
+		FB7446882C86F90B000A3289 /* correct.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = correct.aiff; path = ../../../../../../../Downloads/correct.aiff; sourceTree = "<group>"; };
+		FB7446892C86F90B000A3289 /* yes.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = yes.aiff; path = ../../../../../../../Downloads/yes.aiff; sourceTree = "<group>"; };
+		FB74468A2C86F90B000A3289 /* awesome.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = awesome.aiff; path = ../../../../../../../Downloads/awesome.aiff; sourceTree = "<group>"; };
+		FB74468B2C86F90B000A3289 /* bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = bell.aiff; path = ../../../../../../../Downloads/bell.aiff; sourceTree = "<group>"; };
+		FB74468C2C86F90B000A3289 /* whoop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = whoop.aiff; path = ../../../../../../../Downloads/whoop.aiff; sourceTree = "<group>"; };
+		FB7446922C86F97C000A3289 /* five.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = five.aiff; path = ../../../../../../../Downloads/five.aiff; sourceTree = "<group>"; };
+		FB7446932C86F97C000A3289 /* nine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = nine.aiff; path = ../../../../../../../Downloads/nine.aiff; sourceTree = "<group>"; };
+		FB7446942C86F97C000A3289 /* eight.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = eight.aiff; path = ../../../../../../../Downloads/eight.aiff; sourceTree = "<group>"; };
+		FB7446952C86F97C000A3289 /* three.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = three.aiff; path = ../../../../../../../Downloads/three.aiff; sourceTree = "<group>"; };
+		FB7446962C86F97C000A3289 /* two.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = two.aiff; path = ../../../../../../../Downloads/two.aiff; sourceTree = "<group>"; };
+		FB7446972C86F97C000A3289 /* one.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = one.aiff; path = ../../../../../../../Downloads/one.aiff; sourceTree = "<group>"; };
+		FB7446982C86F97C000A3289 /* four.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = four.aiff; path = ../../../../../../../Downloads/four.aiff; sourceTree = "<group>"; };
+		FB7446992C86F97C000A3289 /* seven.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = seven.aiff; path = ../../../../../../../Downloads/seven.aiff; sourceTree = "<group>"; };
+		FB74469A2C86F97C000A3289 /* six.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = six.aiff; path = ../../../../../../../Downloads/six.aiff; sourceTree = "<group>"; };
+		FB74469B2C86F97C000A3289 /* ten.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = ten.aiff; path = ../../../../../../../Downloads/ten.aiff; sourceTree = "<group>"; };
+		FB74469C2C86F97C000A3289 /* zero.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = zero.aiff; path = ../../../../../../../Downloads/zero.aiff; sourceTree = "<group>"; };
+		FB7446A82C86FA99000A3289 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		FBAB625C2C850A5C00F29C6C /* Shuzi Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shuzi Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuzi_GameApp.swift; sourceTree = "<group>"; };
 		FBAB62612C850A5C00F29C6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +128,7 @@
 		FB743AC62C85A35200A4D082 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FB7446A82C86FA99000A3289 /* GameViewModel.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
@@ -106,6 +147,56 @@
 				FB743ACB2C85B0B400A4D082 /* RandomExtensions.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		FB743ACD2C85B35500A4D082 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				FB743AD02C85B37D00A4D082 /* digitSound */,
+				FB743ACF2C85B37900A4D082 /* success */,
+				FB743ACE2C85B35C00A4D082 /* incorrect */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		FB743ACE2C85B35C00A4D082 /* incorrect */ = {
+			isa = PBXGroup;
+			children = (
+				FB7446842C86F8CF000A3289 /* incorrectAnswer.aiff */,
+				FB7446822C86F8CF000A3289 /* OhNo.aiff */,
+				FB7446832C86F8CF000A3289 /* weak.aiff */,
+			);
+			path = incorrect;
+			sourceTree = "<group>";
+		};
+		FB743ACF2C85B37900A4D082 /* success */ = {
+			isa = PBXGroup;
+			children = (
+				FB74468A2C86F90B000A3289 /* awesome.aiff */,
+				FB74468B2C86F90B000A3289 /* bell.aiff */,
+				FB7446882C86F90B000A3289 /* correct.aiff */,
+				FB74468C2C86F90B000A3289 /* whoop.aiff */,
+				FB7446892C86F90B000A3289 /* yes.aiff */,
+			);
+			path = success;
+			sourceTree = "<group>";
+		};
+		FB743AD02C85B37D00A4D082 /* digitSound */ = {
+			isa = PBXGroup;
+			children = (
+				FB7446942C86F97C000A3289 /* eight.aiff */,
+				FB7446922C86F97C000A3289 /* five.aiff */,
+				FB7446982C86F97C000A3289 /* four.aiff */,
+				FB7446932C86F97C000A3289 /* nine.aiff */,
+				FB7446972C86F97C000A3289 /* one.aiff */,
+				FB7446992C86F97C000A3289 /* seven.aiff */,
+				FB74469A2C86F97C000A3289 /* six.aiff */,
+				FB74469B2C86F97C000A3289 /* ten.aiff */,
+				FB7446952C86F97C000A3289 /* three.aiff */,
+				FB7446962C86F97C000A3289 /* two.aiff */,
+				FB74469C2C86F97C000A3289 /* zero.aiff */,
+			);
+			path = digitSound;
 			sourceTree = "<group>";
 		};
 		FBAB62532C850A5C00F29C6C = {
@@ -131,6 +222,7 @@
 		FBAB625E2C850A5C00F29C6C /* Shuzi Game */ = {
 			isa = PBXGroup;
 			children = (
+				FB743ACD2C85B35500A4D082 /* sound */,
 				FB743ACA2C85B09F00A4D082 /* extensions */,
 				FB743AC72C85A35B00A4D082 /* model */,
 				FB743AC62C85A35200A4D082 /* viewModel */,
@@ -274,8 +366,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7446902C86F90B000A3289 /* bell.aiff in Resources */,
+				FB7446A32C86F97C000A3289 /* four.aiff in Resources */,
 				FBAB62682C850A5C00F29C6C /* Preview Assets.xcassets in Resources */,
+				FB7446A12C86F97C000A3289 /* two.aiff in Resources */,
+				FB7446A02C86F97C000A3289 /* three.aiff in Resources */,
+				FB7446A42C86F97C000A3289 /* seven.aiff in Resources */,
+				FB74469D2C86F97C000A3289 /* five.aiff in Resources */,
+				FB7446A62C86F97C000A3289 /* ten.aiff in Resources */,
+				FB74469E2C86F97C000A3289 /* nine.aiff in Resources */,
+				FB74468F2C86F90B000A3289 /* awesome.aiff in Resources */,
+				FB7446A72C86F97C000A3289 /* zero.aiff in Resources */,
+				FB7446862C86F8CF000A3289 /* weak.aiff in Resources */,
+				FB74468D2C86F90B000A3289 /* correct.aiff in Resources */,
+				FB74469F2C86F97C000A3289 /* eight.aiff in Resources */,
 				FBAB62642C850A5C00F29C6C /* Assets.xcassets in Resources */,
+				FB7446A52C86F97C000A3289 /* six.aiff in Resources */,
+				FB7446872C86F8CF000A3289 /* incorrectAnswer.aiff in Resources */,
+				FB74468E2C86F90B000A3289 /* yes.aiff in Resources */,
+				FB7446852C86F8CF000A3289 /* OhNo.aiff in Resources */,
+				FB7446A22C86F97C000A3289 /* one.aiff in Resources */,
+				FB7446912C86F90B000A3289 /* whoop.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7446A92C86FA99000A3289 /* GameViewModel.swift in Sources */,
 				FBAB62622C850A5C00F29C6C /* ContentView.swift in Sources */,
 				FB743ACC2C85B0B400A4D082 /* RandomExtensions.swift in Sources */,
 				FB743AC92C85A45B00A4D082 /* GameModel.swift in Sources */,
