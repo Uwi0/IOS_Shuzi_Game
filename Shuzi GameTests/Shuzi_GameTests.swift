@@ -11,7 +11,6 @@ import XCTest
 final class Shuzi_GameTests: XCTestCase {
     
     func testMax() throws {
-        let data1 = (x: 3, y: 10, z: 7)
         let dataArray = [
             (x: 3, y: 10, z: 7),
             (x: 3, y: 7, z: 10),
