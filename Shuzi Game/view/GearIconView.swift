@@ -1,18 +1,34 @@
-//
-//  GearIconView.swift
-//  Shuzi Game
-//
-//  Created by dwi prasetyo on 04/09/24.
-//
-
 import SwiftUI
 
 struct GearIconView: View {
+    
+    @Binding var showSettingsView: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Button(action: {
+                    withAnimation {
+                        showSettingsView.toggle()
+                    }
+                }, label: {
+                    Image(systemName: "gearshape")
+                        .imageScale(.large)
+                        .foregroundStyle(.black)
+                        .padding()
+                })
+                Spacer()
+            }
+            Spacer()
+        }
     }
 }
 
 #Preview {
-    GearIconView()
+    ZStack {
+        Color.blue
+            .opacity(0.3)
+            .ignoresSafeArea()
+        GearIconView(showSettingsView: .constant(true))
+    }
 }
