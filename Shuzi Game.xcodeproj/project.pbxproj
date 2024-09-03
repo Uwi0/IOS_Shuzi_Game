@@ -121,6 +121,7 @@
 		FB743AC52C85A34C00A4D082 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FBAB62612C850A5C00F29C6C /* MainView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -229,7 +230,6 @@
 				FB743AC62C85A35200A4D082 /* viewModel */,
 				FB743AC52C85A34C00A4D082 /* view */,
 				FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */,
-				FBAB62612C850A5C00F29C6C /* MainView.swift */,
 				FBAB62632C850A5C00F29C6C /* Assets.xcassets */,
 				FBAB62652C850A5C00F29C6C /* Shuzi_Game.entitlements */,
 				FBAB62662C850A5C00F29C6C /* Preview Content */,
