@@ -10,6 +10,10 @@ struct MainView: View {
         ZStack {
             GearIconView(showSettingsView: $showSettingsView)
             VStack {
+                ScoreView(
+                    score: gVm.gameModel.score,
+                    maxTurns: gVm.gameModel.maxTurns
+                )
                 Spacer()
                 Text(showSettingsView ? "Appearing": "Gone")
                 Spacer()

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB07D1F52C87A8A200D59628 /* GearIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB07D1F42C87A8A200D59628 /* GearIconView.swift */; };
+		FB07D1F72C87AF5500D59628 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB07D1F62C87AF5500D59628 /* ScoreView.swift */; };
 		FB743AC92C85A45B00A4D082 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB743AC82C85A45B00A4D082 /* GameModel.swift */; };
 		FB743ACC2C85B0B400A4D082 /* RandomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB743ACB2C85B0B400A4D082 /* RandomExtensions.swift */; };
 		FB7446A92C86FA99000A3289 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7446A82C86FA99000A3289 /* GameViewModel.swift */; };
@@ -59,6 +60,7 @@
 
 /* Begin PBXFileReference section */
 		FB07D1F42C87A8A200D59628 /* GearIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearIconView.swift; sourceTree = "<group>"; };
+		FB07D1F62C87AF5500D59628 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		FB743AC82C85A45B00A4D082 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		FB743ACB2C85B0B400A4D082 /* RandomExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomExtensions.swift; sourceTree = "<group>"; };
 		FB7446A82C86FA99000A3289 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				FBAB62612C850A5C00F29C6C /* MainView.swift */,
 				FB07D1F42C87A8A200D59628 /* GearIconView.swift */,
+				FB07D1F62C87AF5500D59628 /* ScoreView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB7446A92C86FA99000A3289 /* GameViewModel.swift in Sources */,
+				FB07D1F72C87AF5500D59628 /* ScoreView.swift in Sources */,
 				FBAB62622C850A5C00F29C6C /* MainView.swift in Sources */,
 				FB07D1F52C87A8A200D59628 /* GearIconView.swift in Sources */,
 				FB743ACC2C85B0B400A4D082 /* RandomExtensions.swift in Sources */,
