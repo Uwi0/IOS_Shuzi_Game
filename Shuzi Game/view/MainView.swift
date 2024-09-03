@@ -3,7 +3,12 @@ import SwiftUI
 struct MainView: View {
     
     @Environment(GameViewModel.self) var gVm
-    @State var showSettingsView: Bool = true
+    @State private var showSettingsView: Bool = true
+    @State private var showPinyin: Bool = true
+    
+    private var toggleTitle: String {
+        showPinyin ? "Hide Pinyin" : "Show Pinyin"
+    }
     
     
     var body: some View {
@@ -14,8 +19,8 @@ struct MainView: View {
                     score: gVm.gameModel.score,
                     maxTurns: gVm.gameModel.maxTurns
                 )
-                Spacer()
-                Text(showSettingsView ? "Appearing": "Gone")
+                Toggle(toggleTitle, isOn: $showPinyin.animation())
+                    .padding(.vertical)
                 Spacer()
             }
             .padding()
