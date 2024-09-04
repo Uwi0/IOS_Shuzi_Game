@@ -33,7 +33,12 @@ struct GameModel {
         turns += 1
     }
     
-    //TODO: Need to implement
+    
+    mutating func resetGame() {
+        score = 0
+        turns = 0
+    }
+    
     mutating func generateNewProblem() {
         alternatives = Int.generateUniqueRandomInteger(count: 4)
         

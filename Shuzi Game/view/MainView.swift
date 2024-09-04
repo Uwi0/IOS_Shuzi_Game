@@ -5,11 +5,15 @@ struct MainView: View {
     @Environment(GameViewModel.self) var gVm
     @State private var showSettingsView: Bool = true
     @State private var showPinyin: Bool = true
+    @State private var done: Bool = false
     
     private var toggleTitle: String {
         showPinyin ? "Hide Pinyin" : "Show Pinyin"
     }
     
+    var gameOver: Bool {
+        gVm.gameModel.gameWon
+    }
     
     var body: some View {
         ZStack {
@@ -41,6 +45,14 @@ struct MainView: View {
                 }
             }
             .padding()
+        }
+        .fullScreenCover(
+            isPresented: $done,
+            content: {
+                GameOverView(color: .green.opacity(0.8))
+            }
+        ).onChange(of: gameOver){ _, _ in
+            done = gameOver
         }
     }
 }
