@@ -11,7 +11,7 @@ class GameViewModel {
         playSound(name: ["awesome", "bell", "correct", "whoop", "yes"].randomElement() ?? "awesome")
     }
     
-    func randomInCorrectSound(){
+    func playRandomInCorrectSound(){
         playSound(name: ["OhNo","incorrectAnswer","weak"].randomElement() ?? "incorrectAnswer")
     }
     

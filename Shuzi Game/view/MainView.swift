@@ -32,8 +32,13 @@ struct MainView: View {
                         .fontWeight(.semibold)
                         .opacity(showPinyin ? 1 : 0)
                 }
-                Spacer()
                 
+                NumberOptionsView(
+                    numbers: gVm.gameModel.alternatives,
+                    answer: gVm.gameModel.answer
+                ).onChange(of: gVm.gameModel.turns) { _, _ in
+                    gVm.gameModel.generateNewProblem()
+                }
             }
             .padding()
         }
