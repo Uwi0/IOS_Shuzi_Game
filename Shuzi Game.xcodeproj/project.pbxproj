@@ -15,6 +15,7 @@
 		FB5C10752C8839FC003C0661 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C10742C8839FC003C0661 /* GameOverView.swift */; };
 		FB5C10772C8841D2003C0661 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C10762C8841D2003C0661 /* SettingsView.swift */; };
 		FB5C10792C885278003C0661 /* ProverbModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C10782C885278003C0661 /* ProverbModel.swift */; };
+		FB5C107B2C885313003C0661 /* ProverbViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C107A2C885313003C0661 /* ProverbViewModel.swift */; };
 		FB743AC92C85A45B00A4D082 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB743AC82C85A45B00A4D082 /* GameModel.swift */; };
 		FB743ACC2C85B0B400A4D082 /* RandomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB743ACB2C85B0B400A4D082 /* RandomExtensions.swift */; };
 		FB7446A92C86FA99000A3289 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7446A82C86FA99000A3289 /* GameViewModel.swift */; };
@@ -73,6 +74,7 @@
 		FB5C10742C8839FC003C0661 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		FB5C10762C8841D2003C0661 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		FB5C10782C885278003C0661 /* ProverbModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProverbModel.swift; sourceTree = "<group>"; };
+		FB5C107A2C885313003C0661 /* ProverbViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProverbViewModel.swift; sourceTree = "<group>"; };
 		FB743AC82C85A45B00A4D082 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		FB743ACB2C85B0B400A4D082 /* RandomExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomExtensions.swift; sourceTree = "<group>"; };
 		FB7446A82C86FA99000A3289 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				FB7446A82C86FA99000A3289 /* GameViewModel.swift */,
+				FB5C107A2C885313003C0661 /* ProverbViewModel.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 				FB3F8C772C881C120051F53F /* NumberOptionsView.swift in Sources */,
 				FBAB628B2C850AD200F29C6C /* Max.swift in Sources */,
 				FB5C10772C8841D2003C0661 /* SettingsView.swift in Sources */,
+				FB5C107B2C885313003C0661 /* ProverbViewModel.swift in Sources */,
 				FBAB62602C850A5C00F29C6C /* Shuzi_GameApp.swift in Sources */,
 				FB07D1FA2C87B2A400D59628 /* Chinese.swift in Sources */,
 			);
