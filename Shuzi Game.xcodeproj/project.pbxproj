@@ -40,6 +40,7 @@
 		FB7446CD2C870007000A3289 /* two.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446C22C870007000A3289 /* two.aiff */; };
 		FB7446CE2C870007000A3289 /* five.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446C32C870007000A3289 /* five.aiff */; };
 		FB7446CF2C870007000A3289 /* nine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FB7446C42C870007000A3289 /* nine.aiff */; };
+		FB9510352C88844100F8A224 /* SplashScreenTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9510342C88844100F8A224 /* SplashScreenTextView.swift */; };
 		FBAB62602C850A5C00F29C6C /* Shuzi_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */; };
 		FBAB62622C850A5C00F29C6C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAB62612C850A5C00F29C6C /* MainView.swift */; };
 		FBAB62642C850A5C00F29C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAB62632C850A5C00F29C6C /* Assets.xcassets */; };
@@ -101,6 +102,7 @@
 		FB7446C22C870007000A3289 /* two.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = two.aiff; sourceTree = "<group>"; };
 		FB7446C32C870007000A3289 /* five.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = five.aiff; sourceTree = "<group>"; };
 		FB7446C42C870007000A3289 /* nine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = nine.aiff; sourceTree = "<group>"; };
+		FB9510342C88844100F8A224 /* SplashScreenTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenTextView.swift; sourceTree = "<group>"; };
 		FBAB625C2C850A5C00F29C6C /* Shuzi Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shuzi Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAB625F2C850A5C00F29C6C /* Shuzi_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuzi_GameApp.swift; sourceTree = "<group>"; };
 		FBAB62612C850A5C00F29C6C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -157,8 +159,9 @@
 				FB3F8C762C881C120051F53F /* NumberOptionsView.swift */,
 				FB5C10742C8839FC003C0661 /* GameOverView.swift */,
 				FB5C10762C8841D2003C0661 /* SettingsView.swift */,
-				FB5C107C2C885D28003C0661 /* SplashScreen.swift */,
 				FB5C107E2C885EAC003C0661 /* ContainerView.swift */,
+				FB5C107C2C885D28003C0661 /* SplashScreen.swift */,
+				FB9510342C88844100F8A224 /* SplashScreenTextView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				FB5C107D2C885D28003C0661 /* SplashScreen.swift in Sources */,
 				FB7446A92C86FA99000A3289 /* GameViewModel.swift in Sources */,
 				FB5C10752C8839FC003C0661 /* GameOverView.swift in Sources */,
+				FB9510352C88844100F8A224 /* SplashScreenTextView.swift in Sources */,
 				FB07D1F72C87AF5500D59628 /* ScoreView.swift in Sources */,
 				FBAB62622C850A5C00F29C6C /* MainView.swift in Sources */,
 				FB5C10792C885278003C0661 /* ProverbModel.swift in Sources */,

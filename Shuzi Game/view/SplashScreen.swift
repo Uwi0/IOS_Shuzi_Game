@@ -12,6 +12,18 @@ struct SplashScreen: View {
     
     var vm = ProverbViewModel()
     
+    var chinese: String {
+        "chinese"
+    }
+    
+    var pinyin: String {
+        "pinyin"
+    }
+    
+    var english: String {
+        "English"
+    }
+    
     var body: some View {
         GeometryReader { geo in
             ZStack {
@@ -29,33 +41,39 @@ struct SplashScreen: View {
                     .opacity(opacity)
                 
                 VStack {
-                    VStack(spacing: spacing) {
-                        Text("Line1")
-                            .foregroundStyle(.red)
-                        Text("Line 2")
-                            .foregroundStyle(.yellow)
-                        Text("Line 3")
-                            .foregroundStyle(.red)
-                    }
-                    .padding()
-                    .background(
-                        RoundedRectangle(cornerRadius: 25)
-                            .fill(
-                                LinearGradient(
-                                    colors: [.black, .gray],
-                                    startPoint: .topLeading,
-                                    endPoint: .bottomTrailing
-                                )
-                            )
-                            .opacity(opacity)
+                    SplashScreenTextView(
+                        spacing: spacing,
+                        text1: chinese,
+                        text2: pinyin,
+                        text3: english,
+                        scale: scale,
+                        angle: angle,
+                        opacity: opacity
                     )
-                    .font(.title)
-                    .fontWeight(.semibold)
-                    .multilineTextAlignment(.center)
-                    .scaleEffect(scale)
-                    .rotation3DEffect(
-                        Angle(degrees: angle),
-                        axis: (x: 1.0, y: 0.0, z: 0.0)
+                    if moveUp {
+                        Spacer()
+                    }
+                }
+                
+                VStack {
+                    Spacer()
+                    Button(
+                        action: {
+                            withAnimation {
+                                isPresented.toggle()
+                            }
+                        },
+                        label: {
+                            Image("friend")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(height: 75)
+                                .clipShape(Capsule())
+                                .overlay(
+                                    Capsule()
+                                        .stroke(Color.red, lineWidth: 1)
+                                )
+                        }
                     )
                 }
             }
