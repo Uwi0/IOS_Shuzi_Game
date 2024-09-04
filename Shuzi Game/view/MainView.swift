@@ -21,7 +21,19 @@ struct MainView: View {
                 )
                 Toggle(toggleTitle, isOn: $showPinyin.animation())
                     .padding(.vertical)
+                if let chineseNum = gVm.gameModel.answer.num99ToChinese() {
+                    Spacer()
+                    Text(chineseNum.chinese)
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                    
+                    Text(chineseNum.pinyin)
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                        .opacity(showPinyin ? 1 : 0)
+                }
                 Spacer()
+                
             }
             .padding()
         }
