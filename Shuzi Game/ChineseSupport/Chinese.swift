@@ -1,7 +1,7 @@
 import Foundation
 
-class Chinese {
-    static func num99TOChinese(num: Int) -> (chinese: String, pinyin: String)? {
+extension Int {
+    func num99ToChinese() -> (chinese: String, pinyin: String)? {
         
         let chineseDigitsWithPinyin: [(chinese: String, pinyin: String) ] = [
             ("零", "líng"),  // 0
@@ -30,8 +30,29 @@ class Chinese {
             ("九", "jiǔ"),
             ("十", "shí")
         ]
+
+        var chineseResult: String
+        var pinyinResult: String
         
+        switch(self) {
+        case 0...10:
+            chineseResult = chineseDigitsWithPinyin[self].chinese
+            pinyinResult = chineseDigitsWithPinyin[self].pinyin
+        case 11...19:
+            chineseResult = "十\(chineseDigitsWithPinyin[self%10].chinese)"
+            pinyinResult = "shí \(chineseDigitsWithPinyin[self%10].pinyin)"
+        case 20...99:
+            // 70
+            let tenths = self / 10   // 7
+            let digit = self % 10    // 0
+            chineseResult = "\(chineseDigitsWithPinyin[tenths].chinese)十\(chineseDigitsWithPinyinEmptyZero[digit].chinese)"
+            pinyinResult = "\(chineseDigitsWithPinyin[tenths].pinyin) shí \(chineseDigitsWithPinyinEmptyZero[digit].pinyin)"
+        default:
+            return nil
+        }
         
-        return nil
+        pinyinResult = pinyinResult.trimmingCharacters(in: .whitespaces)
+        
+        return (chineseResult, pinyinResult)
     }
 }
