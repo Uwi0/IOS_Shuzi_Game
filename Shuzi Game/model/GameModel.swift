@@ -35,8 +35,13 @@ struct GameModel {
     
     
     mutating func resetGame() {
-        score = 0
-        turns = 0
+        self = GameModel(
+            score: 0,
+            maxTurns: 5,
+            volume: self.volume,
+            turns: 0,
+            answer: 10,
+            alternatives: [42, 13, 7, 10].shuffled())
     }
     
     mutating func generateNewProblem() {

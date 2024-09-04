@@ -51,7 +51,11 @@ struct MainView: View {
             content: {
                 GameOverView(color: .green.opacity(0.8))
             }
-        ).onChange(of: gameOver){ _, _ in
+        )
+        .fullScreenCover(isPresented: $showSettingsView, content: {
+            SettingsView(showSettingView: $showSettingsView, volume: gVm.gameModel.volume)
+        })
+        .onChange(of: gameOver){ _, _ in
             done = gameOver
         }
     }
