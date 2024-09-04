@@ -5,6 +5,7 @@ struct SplashScreen: View {
     @Binding var isPresented: Bool
     
     @State private var opacity = 0.0
+    @State private var textOpacity = 0.1
     @State private var scale = CGSize(width: 0.5, height: 0.5)
     @State private var moveUp = false
     @State private var angle = 45.0
@@ -13,15 +14,15 @@ struct SplashScreen: View {
     var vm = ProverbViewModel()
     
     var chinese: String {
-        "chinese"
+        vm.proverModel.proverb
     }
     
     var pinyin: String {
-        "pinyin"
+        vm.proverModel.pinyin
     }
     
     var english: String {
-        "English"
+        vm.proverModel.translation
     }
     
     var body: some View {
@@ -54,6 +55,7 @@ struct SplashScreen: View {
                         Spacer()
                     }
                 }
+                    .opacity(textOpacity)
                 
                 VStack {
                     Spacer()
@@ -75,6 +77,24 @@ struct SplashScreen: View {
                                 )
                         }
                     )
+                }
+            }
+        }
+        .onAppear {
+            vm.getRandomQuote()
+            
+            
+            withAnimation(.easeInOut(duration: 2.5)) {
+                textOpacity = 0.8
+                opacity = 0.8
+                scale = CGSize(width: 1, height: 1)
+                angle = 1
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                withAnimation(.easeInOut(duration: 2)) {
+                    textOpacity = 1.0
+                    moveUp = true
+                    spacing = 30
                 }
             }
         }
