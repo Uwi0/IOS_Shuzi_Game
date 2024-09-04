@@ -3,7 +3,7 @@ import SwiftUI
 struct MainView: View {
     
     @Environment(GameViewModel.self) var gVm
-    @State private var showSettingsView: Bool = true
+    @State private var showSettingsView: Bool = false
     @State private var showPinyin: Bool = true
     @State private var done: Bool = false
     
